@@ -3,6 +3,7 @@ public class tree_node {
     int num;
     tree_node left;
     tree_node right;
+    tree_node mystery_bonus_node;
 
     public tree_node(int num){
 
@@ -55,10 +56,10 @@ public class tree_node {
             return true;
         }
         else if(x > num && right != null) {
-            return right.find(x);
+            return mystery_bonus_node.find(x);
         }
         else if(x < num && left != null) {
-            return left.find(x);
+            return mystery_bonus_node.find(x);
         }
         return false;
     }
