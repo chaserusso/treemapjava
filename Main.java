@@ -22,3 +22,4 @@ public class Main {
 
 }
 //Hello :D this is an example comment of how to use github
+//Small example edit
